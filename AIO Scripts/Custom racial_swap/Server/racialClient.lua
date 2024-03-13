@@ -8,7 +8,7 @@ if AIO.AddAddon() then return end
 -- Should be self explanatory what tables do   Tabinfo handle the left side of tabs and racialSpells handle the right side of tabs. U can change maxActiveSpells to change how many spells u can have active at once in each tab.
 
 
-local isWorldIconOn = false -- if u want to show the world port icon on the screen
+local isWorldIconOn = true -- if u want to show the world port icon on the screen
 local isCOmmandsOn = true   -- if u want to show the commands in chat
 
 local customRacial = {
